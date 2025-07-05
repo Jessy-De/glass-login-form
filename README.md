@@ -1,26 +1,20 @@
-# Glassmorphism Login Form
+# Glass Login Form 💎
 
-This is a beginner-friendly login form with a beautiful glassmorphism effect, built with HTML and CSS.
+A sleek and modern login form with a glassmorphism effect — built using HTML and CSS. Perfect for front-end practice or integration into aesthetic UI-based websites.
+
+## 🔥 Features
+
+- Beautiful glassmorphism user interface
+- Fully responsive layout
+- Clean and beginner-friendly source code
+- Google Fonts integration
 
 ## 🚀 Live Demo
 
-Coming soon...
+🌐 [View Live Project on Netlify](https://roaring-nougat-9ffa84.netlify.app/)
 
-## 📂 How to Use
+## 💾 How to Use
 
-1. Download or clone the repository.
-2. Open `index.html` in your browser.
-
-## 🎨 Built With
-
-- HTML
-- CSS (Glassmorphism)
-- Google Fonts
-
-## 📸 Preview
-copy and paste this on your browser.
-https://roaring-nougat-9ffa84.netlify.app/
-
-## 🙌 Subscribe to my channel
-
-- YouTube: The Coding Clan.
+1. **Clone** the repository:
+   ```bash
+   git clone https://github.com/Jessy-De/glass-login-form.git
