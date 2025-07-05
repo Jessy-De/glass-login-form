@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  background-image: url(images/img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(4px);
+}
+
+/* Wrapper to center form */
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Glass form container */
+.glass-form {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 40px;
+  width: 320px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-align: center;
+  color: #fff;
+}
+
+.glass-form {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.glass-form h2 {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+/* Input styling */
+.glass-form input[type="text"],
+.glass-form input[type="password"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  outline: none;
+  font-size: 14px;
+}
+
+.glass-form input::placeholder {
+  color: #eee;
+}
+
+/* Remember me and forgot password */
+.remember-forget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin: 15px 0;
+  color: #fff;
+}
+
+.remember-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.remember-forget a {
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.remember-forget a:hover {
+  text-decoration: underline;
+}
+
+/* Login button */
+.glass-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.glass-form button:hover {
+  background-color: #ddd;
+}
+
+.glass-form input:focus {
+  border: 1px solid #00bcd4;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Register link */
+.register-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.register-link a {
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 400px) {
+  .glass-form {
+    width: 90%;
+    padding: 25px;
+  }
+}
